@@ -1,0 +1,10 @@
+html,body{min-height: 100%;}
+body{
+    background:no-repeat linear-gradient(to bottom left,#0fa,#0af);
+}
+
+
+
+@keyframes pop{
+    10%{transform:scaleXY(10)}
+}
