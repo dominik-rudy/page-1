@@ -1,10 +1,49 @@
-html,body{min-height: 100%;}
-body{
-    background:no-repeat linear-gradient(to bottom left,#0fa,#0af);
+html,
+body {
+    min-height: 100%;
+    font-family: "ss";
+}
+
+@font-face {
+    font-family: "ss";
+    src: url("media/sans-serif-font.otf");
+}
+
+body {
+    background-image:url("media/Mountain-Background.jpg");
+    background-size: cover;
+    /* background: no-repeat linear-gradient(to bottom left,#1f6,#40e); */
+}
+
+nav {
+    margin: 5pt;
+    
+}
+
+
+/* a {
+    font-family: "ss";
+    color: #000;
+    padding: 2pt 4pt 2pt 4pt;
+    background-color: #fff4;
+    border: 1pt solid #fff5;
+    border-radius: 10pt;
+    text-decoration: none;
+} */
+article h1,p{
+    background-image: linear-gradient(to bottom left,#1f6,#40e);
+    background-clip: text;
+    color:transparent;
+}
+
+a:hover {
+    animation: pop 0.2;
 }
 
 
 
-@keyframes pop{
-    10%{transform:scaleXY(10)}
+@keyframes pop {
+    10% {
+        transform: scaleX(10)
+    }
 }
