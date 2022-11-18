@@ -2,6 +2,7 @@ html,
 body {
     min-height: 100%;
     font-family: "ss";
+    margin:0%;
 }
 
 @font-face {
@@ -16,10 +17,18 @@ body {
 }
 
 nav {
-    margin: 5pt;
-    
+    width:100%;
+    background-color: #effa;
+    padding: 5pt;
+    margin: bottom 5pt;
+    border-bottom:3pt solid #effe;
 }
-
+nav input{
+    border:0pt hidden;
+    padding:left 20pt;
+    border-radius: 10pt;
+    background:linear-gradient(to bottom left,#0f67,#50f7);
+}
 
 /* a {
     font-family: "ss";
@@ -31,9 +40,23 @@ nav {
     text-decoration: none;
 } */
 article h1,p{
-    background-image: linear-gradient(to bottom left,#1f6,#40e);
+    text-align: center;
+    background-image: linear-gradient(to bottom left,#0d4,#30d);
     background-clip: text;
     color:transparent;
+
+}
+.background-tile-article{
+    width:90%;
+    padding: 0.1pt;
+    background: border-box#effa;
+    margin: 5pt;
+    margin-left: auto;
+    margin-right: auto;
+    border:3pt solid #effe;
+}
+.background-tile-article:first-child{
+    margin-bottom: 10pt;
 }
 
 a:hover {
